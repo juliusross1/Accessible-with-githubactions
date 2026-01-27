@@ -1,4 +1,4 @@
-# Note added OCT 7, 2025
+TEST # Note added OCT 7, 2025
 This project is based on [Accessible-LaTeX-Thesis-Template](https://github.com/juliusross1/Accessible-LaTeX-Thesis-Template). 
 
 The original readme.md from that project follows below.
