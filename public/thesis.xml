@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/__w/Accessible-LaTeX-Thesis-Template/Accessible-LaTeX-Thesis-Template"?>
+<?latexml searchpaths="/__w/Accessible-with-githubactions/Accessible-with-githubactions"?>
 <!--  %Todo --><!--  %Table --><!--  %Colors --><?latexml class="amsbook" options="12pt,reqno,oneside"?>
 <!--  %%“usepackage[english]–babel˝  %Language needs to be specified for accessibility; currently this is not working well with latexml --><?latexml package="amsmath, amssymb, amsthm"?>
 <?latexml package="listings"?>
@@ -19,13 +19,13 @@
     <p><text fontsize="144%">A. Student</text></p>
     <p>A thesis submitted in partial fulfillment of the requirements <break/>for the degree of Doctor of Philosophy<break/></p>
     <p>Advisor: Prof. Ada Lovelace<break/></p>
-    <p>October 7, 2025</p>
+    <p>January 27, 2026</p>
   </titlepage>
   <title>A Sample Thesis in Mathematics</title>
   <creator role="author">
     <personname>A. Student</personname>
   </creator>
-  <date name="Date:" role="creation">October 7, 2025</date>
+  <date name="Date:" role="creation">January 27, 2026</date>
   <chapter xml:id="Chx1">
     <title>Accessibility Statement</title>
     <para class="ltx_noindent" xml:id="Chx1.p1">
