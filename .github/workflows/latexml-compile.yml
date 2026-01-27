@@ -31,6 +31,6 @@ jobs:
           # Add all files in the public directory
           git add public/
           # Commit the changes if any exist
-          git commit -m "Autogenerate HTML from LaTeXML" || echo "No changes to commit"
+          git commit -m "HTML from LaTeXML" || echo "No changes to commit"
           # Push the changes back to the main branch
           git push
