@@ -18,7 +18,7 @@ jobs:
           chown -R $(id -u):$(id -g) .
           mkdir -p public
           latexml --dest=docs/thesis.xml thesis.tex
-          latexmlpost --dest=doc/index.html --format=html5 \
+          latexmlpost --dest=docs/index.html --format=html5 \
           --mathimages --graphicimages --pictureimages \
           --css=style.css \
           public/thesis.xml
