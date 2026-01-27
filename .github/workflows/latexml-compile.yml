@@ -18,7 +18,7 @@ jobs:
           chown -R $(id -u):$(id -g) .
           mkdir -p public
           latexml --dest=public/thesis.xml thesis.tex
-          latexmlpost --dest=public/index.html --format=html5 \
+          latexmlpost --dest=doc/index.html --format=html5 \
           --mathimages --graphicimages --pictureimages \
           --css=style.css \
           public/thesis.xml
@@ -29,7 +29,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           # Add all files in the public directory
-          git add public/
+          git add doc/
           # Commit the changes if any exist
           git commit -m "HTML from LaTeXML" || echo "No changes to commit"
           # Push the changes back to the main branch
