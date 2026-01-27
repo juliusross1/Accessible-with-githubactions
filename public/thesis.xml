@@ -29,7 +29,7 @@
   <chapter xml:id="Chx1">
     <title>Accessibility Statement</title>
     <para class="ltx_noindent" xml:id="Chx1.p1">
-      <p><!--  %**** thesis.tex Line 75 **** -->An accessible EPUB version of this document is available at [URL].</p>
+      <p><!--  %**** thesis.tex Line 75 **** -->Test change of statement. An accessible EPUB version of this document is available at [URL].</p>
     </para>
   </chapter>
   <chapter xml:id="Chx2">
