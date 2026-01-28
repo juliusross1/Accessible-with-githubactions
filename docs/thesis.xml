@@ -19,13 +19,13 @@
     <p><text fontsize="144%">A. Student</text></p>
     <p>A thesis submitted in partial fulfillment of the requirements <break/>for the degree of Doctor of Philosophy<break/></p>
     <p>Advisor: Prof. Ada Lovelace<break/></p>
-    <p>January 27, 2026</p>
+    <p>January 28, 2026</p>
   </titlepage>
   <title>A Sample Thesis in Mathematics</title>
   <creator role="author">
     <personname>A. Student</personname>
   </creator>
-  <date name="Date:" role="creation">January 27, 2026</date>
+  <date name="Date:" role="creation">January 28, 2026</date>
   <chapter xml:id="Chx1">
     <title>Accessibility Statement</title>
     <para class="ltx_noindent" xml:id="Chx1.p1">
