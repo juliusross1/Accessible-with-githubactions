@@ -19,8 +19,11 @@ jobs:
           mkdir -p public
           latexml --dest=docs/thesis.xml thesis.tex
           latexmlpost --dest=docs/index.html --format=html5 \
-          --mathimages --graphicimages --pictureimages \
+          --graphicimages --pictureimages \
           --css=style.css \
+          public/thesis.xml
+          latexmlpost --dest=docs/thesis.epub --format=epub \
+          --graphicimages --pictureimages \
           public/thesis.xml
 
       - name: Commit and Push HTML output
@@ -28,7 +31,7 @@ jobs:
           # Configure Git user
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-          # Add all files in the public directory
+          # Add all files in the docs directory
           git add docs/
           # Commit the changes if any exist
           git commit -m "HTML from LaTeXML" || echo "No changes to commit"
