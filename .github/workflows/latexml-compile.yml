@@ -16,15 +16,13 @@ jobs:
       - name: Compile with LaTeXML
         run: |
           chown -R $(id -u):$(id -g) .
-          mkdir -p public
+          mkdir -p docs
           latexml --dest=docs/thesis.xml thesis.tex
           latexmlpost --dest=docs/index.html --format=html5 \
           --graphicimages --pictureimages \
           --css=style.css \
-          public/thesis.xml
-          latexmlpost --dest=docs/thesis.epub \
-          --graphicimages --pictureimages \
-          public/thesis.xml
+          docs/thesis.xml
+          latexmlc --dest=docs/thesis.epub thesis.tex
 
       - name: Commit and Push HTML output
         run: |
