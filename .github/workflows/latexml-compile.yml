@@ -22,7 +22,7 @@ jobs:
           --graphicimages --pictureimages \
           --css=style.css \
           public/thesis.xml
-          latexmlpost --dest=docs/thesis.epub --format=epub \
+          latexmlpost --dest=docs/thesis.epub --format=html5 \
           --graphicimages --pictureimages \
           public/thesis.xml
 
