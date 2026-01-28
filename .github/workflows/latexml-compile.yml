@@ -1,4 +1,4 @@
-name: Save Compiled LaTeXML HTML
+name: Run LaTeXML
 on:
   workflow_dispatch:
 jobs:
